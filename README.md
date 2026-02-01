@@ -2,6 +2,8 @@
 
 An interactive map where you can document all your travel memories with your s/o. I built this for Valentine's Day - feel free to fork it and make it your own!
 
+You can view a live example of the website here: https://valentines-travel-map.vercel.app/
+
 ![Preview](preview.png)
 
 ## Getting Started
