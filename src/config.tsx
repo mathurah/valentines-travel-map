@@ -7,12 +7,14 @@ import { LocationData } from "./types";
 // Header text (shown at top of page)
 export const HEADER_EMOJI = "🌍";
 export const HEADER_TITLE = "Our Adventures Around the World";
-export const HEADER_SUBTITLE = "Click markers to see our memories • Drag to pan";
+export const HEADER_SUBTITLE =
+  "Click markers to see our memories • Drag to pan";
 
 // Intro overlay (welcome screen)
 export const INTRO_EMOJI = "🌍";
 export const INTRO_TITLE = "Our Travel Map";
-export const INTRO_DESCRIPTION = "Explore all the special places we've visited together. Click on the heart markers to see our memories from each location!";
+export const INTRO_DESCRIPTION =
+  "Explore all the special places we've visited together. Click on the heart markers to see our memories from each location!";
 export const INTRO_STATS_SUFFIX = "places"; // Will show as "X places"
 export const INTRO_BUTTON_TEXT = "View Map";
 export const INTRO_EMOJIS = ["🏠", "✈️", "🏖️", "🍕", "🥂"];
@@ -40,7 +42,7 @@ export const LOCATIONS: LocationData[] = [
     coords: [48.8566, 2.3522],
     date: "Spring 2024",
     story: "Add your story about this special place here...",
-    images: [], // Add image paths like: ["/images/paris.jpg"]
+    images: ["/images/paris.jpeg"], // Add image paths like: ["/images/paris.jpg"]
   },
   {
     id: "tokyo",
@@ -48,7 +50,7 @@ export const LOCATIONS: LocationData[] = [
     coords: [35.6762, 139.6503],
     date: "Summer 2024",
     story: "Add your story about this special place here...",
-    images: [],
+    images: ["/images/japan.webp"],
   },
   {
     id: "new-york",
@@ -56,7 +58,7 @@ export const LOCATIONS: LocationData[] = [
     coords: [40.7128, -74.006],
     date: "Fall 2024",
     story: "Add your story about this special place here...",
-    images: [],
+    images: ["/images/new-york.jpeg"],
   },
 ];
 
